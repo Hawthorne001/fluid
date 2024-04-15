@@ -1,5 +1,5 @@
 # docker build --no-cache . -t registry.cn-hangzhou.aliyuncs.com/fluid/gen-cert:v0.5.0
-FROM alpine:3.10
+FROM alpine:3.16.9
 
 # Install requirements
 ARG KUBE_VERSION="1.18.8"
